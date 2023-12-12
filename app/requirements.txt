@@ -1,0 +1,10 @@
+gradio
+pytube
+transformers
+huggingface_hub
+gtts
+fpdf
+pdfminer
+pdfminer-six
+torch
+sentencepiece
