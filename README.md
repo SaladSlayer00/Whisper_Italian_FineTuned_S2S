@@ -55,6 +55,6 @@ Another issue can be identified in the discrepancy in input audio quality. While
 
 ## Audio Quality Enhancement
 We have experimented on some samples which have been crafted to include noise: in the example included in the `audio_enhancement` folder, after performing enhancements, the WER on model transcription has decreased from 13% to 5%, making it a viable way of obtaining better outcomes for inference on mic-recorded clips.
-The original *Ciao, mi chiamo Beatrice, ho ventitre anni e abito in Italia, mi piace molto andare in giro a fare compere e studiare.* is an audio sample of 12 seconds, a dimension which lets the model perform efficiently. We can see that, in the second image, it has been transcribed more closely compared to the first, unhanced version.
+The original *Ciao, mi chiamo Beatrice, ho ventitre anni e abito in Italia, mi piace molto andare in giro a fare compere e studiare.* is an audio sample of 12 seconds, a dimension which lets the model perform efficiently. We can see that, in the second image, it has been transcribed more closely compared to the first, non-enhanced version.
 ![Before](audio_enhancement/before_proc.png)
 ![After](audio_enhancement/after_proc.png)
